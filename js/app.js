@@ -1,8 +1,19 @@
+//URL para produccion
+var url = window.location.href;
+var nombreGitHub = 'ChatZam';  //nombre del proyecto en gitHub
+var swLocation = '/'+nombreGitHub+'/sw.js';
+
 
 //Registro del SW ---------------
 
 if (navigator.serviceWorker){
-    navigator.serviceWorker.register('/sw.js')
+
+    //si estamos en desarrollo 
+    if(url.includes('localhost')){
+        swLocation='/sw.js';
+    }
+
+    navigator.serviceWorker.register(swLocation)
 }
 
 // Referencias de jQuery -----------
