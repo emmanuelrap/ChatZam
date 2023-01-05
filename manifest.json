@@ -1,13 +1,13 @@
 {
     "short_name": "ChatZam",   
     "name": "Chat Online", 
-    "start_url": "/index.html",  
+    "start_url": "index.html",  
     "background_color": "#3367D6",  
     "display": "standalone",  
     "orientation": "portrait", 
     "theme_color": "#3498db",
     "scope": "/",
-    "description": "PWA - CHAT",
+    "description": "PWA - CHAT - v3",
     "icons": [ 
         { 
             "src": "img/icons/icon-72x72.png", 

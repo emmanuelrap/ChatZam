@@ -1,13 +1,13 @@
 //Importacion
 importScripts('js/sw-utils.js');
 
-const STATIC_CACHE = 'static-v2';
+const STATIC_CACHE = 'static-v3';
 const DYNAMIC_CACHE  = 'dinamic-v2';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 //Lo que debe estar cargado de manera instantanea --------------
 const APP_SHELL = [
-     '/',
+    // '/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
@@ -23,7 +23,7 @@ const APP_SHELL = [
 const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
     'https://fonts.googleapis.com/css?family=Lato:400,300',
-    'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
+    // 'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
     'css/animate.css',
     'js/libs/jquery.js'
 ];
