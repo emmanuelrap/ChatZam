@@ -41,7 +41,7 @@ const APP_SHELL = [
   "img/avatars/23.png",
   "img/avatars/24.png",
   "img/avatars/25.png",
-  "img/avatars/starlord.jpg",
+  "img/avatars/starlord.png",
   "img/avatars/27.png",
   "img/avatars/28.png",
   "img/avatars/29.png",
