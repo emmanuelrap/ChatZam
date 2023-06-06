@@ -184,7 +184,7 @@ textarea {
 }
 
 .bubble-container {
-  width: 100%;
+  height: 100%;
   display: block;
   position: relative;
   padding-left: 20px;
@@ -223,7 +223,7 @@ textarea {
 }
 
 .avatar {
-  width: 18%;
+  width: 15%;
   display: inline-block;
   vertical-align: top;
   position: relative;
